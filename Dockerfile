@@ -2,7 +2,8 @@ FROM ubuntu
 MAINTAINER Yichuan Wang
 # Install basic applications, Python, Python tools
 RUN apt-get update && apt-get install -y \
-build-essential \ curl \
+build-essential \ 
+curl \
 dialog \
 git \
 net-tools \
